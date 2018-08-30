@@ -1,36 +1,51 @@
-body
+/****** Body Section ******/
+body {
   font-size: 14px;
 }
 
+/****** Nav Section ******/
+
+/*Color & Size*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
+/*Font*/
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
 
+/****** Main Content Section ******/
 
+/*Section Size*/
 section {
   margin: 0 auto;
   width: 60%;
 }
-
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
+/*Padding & Alignment*/
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
-
+/*Font Size*/
 h3 {
   font-size: 1.3em;
 }
-
+/*Div Element*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/*Div Feature*/
+.feature {
+  background-color: pink;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
